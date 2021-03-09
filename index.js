@@ -5,7 +5,7 @@ let wakeDog = function(dogName, dogBreed){
 
 let leashDog = function(dogName, dogBreed){
     console.log(`Leash ${dogName} the ${dogBreed}`);
-    return `Wak ${dogName} the ${dogBreed}`
+    return `Leash ${dogName} the ${dogBreed}`
 }
 
 const routine =[wakeDog, leashDog]
