@@ -8,7 +8,7 @@ let leashDog = function(dogName, dogBreed){
     return `Wake ${dogName} the ${dogBreed}`
 }
 
-const routine =[wakeDog, ]
+const routine =[wakeDog, leashDog]
 
 function exerciseDog(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
