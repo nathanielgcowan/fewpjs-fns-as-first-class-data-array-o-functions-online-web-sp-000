@@ -23,4 +23,4 @@ function unleashDog(dogName, dogBreed) {
 }
 
 
-const routing =(wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog)
+const routing =[wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
