@@ -24,7 +24,7 @@ function unleashDog(dogName, dogBreed) {
 }
 
 
-const routing =[wakeDog]
+const routine =[wakeDog]
 
 function exerciseDog(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
