@@ -21,3 +21,6 @@ function walkHome(dogName, dogBreed) {
 function unleashDog(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
+
+
+const routing =(wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog)
