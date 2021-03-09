@@ -13,7 +13,7 @@ let walkToPark = function(dogName, dogBreed){
     return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 
-const routine =[wakeDog, leashDog]
+const routine =[wakeDog, leashDog, walkToPark]
 
 function exerciseDog(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
