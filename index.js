@@ -1,4 +1,4 @@
-function wakeDog(dogName, dogBreed) {
+function wakeDog(dogNam = 'Wake Xerox', dogBreed = 'Border Collie') {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
 
@@ -24,3 +24,7 @@ function unleashDog(dogName, dogBreed) {
 
 
 const routing =[wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+
+function exerciseDog(dogName, dogBreed) {
+  console.log(`Wake ${dogName} the ${dogBreed}`);
+}
